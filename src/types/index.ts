@@ -16,10 +16,18 @@ export type Project = {
   github: string;
   demo: string;
   badge?: string;
+  featured?: boolean;
 };
 
 export type Experience = {
   title: string;
   period: string;
   description: string;
+};
+
+export type SocialLink = {
+  label: string;
+  href: string;
+  icon: LucideIcon;
+  external?: boolean;
 };

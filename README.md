@@ -1,66 +1,47 @@
 # Kauã Campos — Portfólio Premium
 
-Portfólio pessoal moderno construído com **React + Vite + TypeScript + TailwindCSS + Framer Motion**, com foco em posicionamento profissional para vagas de estágio e júnior Full Stack/Backend.
+Portfólio pessoal moderno com identidade SaaS e foco em recrutadores técnicos.
 
-## ✨ Diferenciais
-- Design dark premium inspirado em Vercel/Linear/Stripe.
-- Componentização escalável por domínio (`components`, `sections`, `data`, `types`, `utils`).
-- Animações fluidas com Framer Motion e microinterações elegantes.
-- Scroll suave, cards com glassmorphism e UI responsiva.
-- SEO básico no `index.html`.
-- Lazy loading da seção de projetos.
+## Novidades desta versão
+- Hero mais pessoal com foto, CTA forte e botões funcionais de currículo (abrir + download).
+- Redes sociais com hover, tooltip e indicador visual de link externo.
+- Seção de GitHub Stats com cards e métricas visuais (repos/linguagens/streak/contribuições).
+- Projetos com mais profundidade visual, destaque para projetos principais e interação refinada.
+- Sobre mais humano, com trajetória real, foco em backend/arquitetura e sinais de atividade como dev.
 
-## 🧱 Arquitetura
+## Stack
+- React + Vite + TypeScript
+- TailwindCSS
+- Framer Motion
+- lucide-react
+
+## Estrutura
 ```bash
 src/
-├── components/     # blocos reutilizáveis (Navbar, SectionTitle)
-├── sections/       # seções da página (Hero, Sobre, Skills...)
-├── data/           # conteúdos estruturados do portfólio
-├── assets/         # arquivos estáticos/imagens
-├── hooks/          # hooks customizados
-├── types/          # tipagens globais
-├── utils/          # utilitários
-├── styles/         # estilos globais
-└── App.tsx         # composição principal
+├── components/
+├── sections/
+├── data/
+├── assets/
+├── hooks/
+├── types/
+├── utils/
+├── styles/
+└── App.tsx
 ```
 
-## 🚀 Rodando localmente
+## Rodando
 ```bash
 npm install
 npm run dev
 ```
 
-## 🏗️ Build
-```bash
-npm run build
-npm run preview
-```
+## Deploy na Vercel
+1. Push no GitHub
+2. Importar projeto na Vercel
+3. Build command: `npm run build`
+4. Output: `dist`
 
-## ▲ Deploy na Vercel
-1. Suba este projeto no GitHub.
-2. Acesse [vercel.com](https://vercel.com) e clique em **New Project**.
-3. Importe o repositório.
-4. Framework detectado: **Vite**.
-5. Build command: `npm run build`.
-6. Output directory: `dist`.
-7. Deploy.
-
-## 🔭 Melhorias futuras
-- Integração com CMS (ex.: Notion API/Contentlayer) para projetos dinâmicos.
-- Internacionalização (PT-BR/EN).
-- Tema com alternância dark/light mantendo identidade premium.
-- Métricas de interação (analytics + heatmaps).
-- Endpoint para formulário de contato com validação server-side.
-
-## 🎬 Sugestões de animações sofisticadas
-- Parallax suave no hero conforme rolagem.
-- Stagger avançado de cards por grupo de skill.
-- Cursor glow dinâmico em cards de projeto.
-- Transições com layout animations entre filtros de projetos.
-
-## ✅ Boas práticas aplicadas
-- Dados isolados da UI para manutenção.
-- Tipagem forte com TypeScript.
-- Responsividade mobile-first.
-- Classes utilitárias coesas e sem poluição visual.
-- Separação entre apresentação, conteúdo e utilitários.
+## Melhorias futuras
+- Activity heatmap customizado com API.
+- Theme switcher premium.
+- Command menu para navegação rápida.
