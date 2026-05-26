@@ -1,13 +1,19 @@
 import { motion } from "framer-motion";
 import { SectionTitle } from "../components/SectionTitle";
-import { skillCategories } from "../data/portfolio";
-
+import { skillCategoriesByLang } from "../data/portfolio";
+import { useLanguage } from "../context/LanguageContext";
 export function SkillsSection() {
+  const { language } = useLanguage();
+  const skillCategories = skillCategoriesByLang[language];
   return (
     <section id="skills" className="mx-auto max-w-6xl px-6 py-20">
       <SectionTitle
         eyebrow="Skills"
-        title="Stack técnica e competências profissionais"
+        title={
+          language === "pt"
+            ? "Stack técnica e competências profissionais"
+            : "Technical stack and professional capabilities"
+        }
       />
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {skillCategories.map(({ title, icon: Icon, items }) => (

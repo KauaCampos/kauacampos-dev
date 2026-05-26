@@ -1,1 +1,26 @@
-{"root":["./src/App.tsx","./src/main.tsx","./src/components/Navbar.tsx","./src/components/SectionTitle.tsx","./src/data/portfolio.ts","./src/hooks/useSectionInView.ts","./src/sections/AboutSection.tsx","./src/sections/CertificatesSection.tsx","./src/sections/ContactSection.tsx","./src/sections/ExperienceSection.tsx","./src/sections/HeroSection.tsx","./src/sections/ProjectsSection.tsx","./src/sections/SkillsSection.tsx","./src/types/index.ts","./src/utils/cn.ts"],"errors":true,"version":"6.0.3"}
+{
+  "root": [
+    "./src/App.tsx",
+    "./src/main.tsx",
+    "./src/components/Navbar.tsx",
+    "./src/components/SectionTitle.tsx",
+    "./src/components/ui/SocialLinks.tsx",
+    "./src/context/LanguageContext.tsx",
+    "./src/data/portfolio.ts",
+    "./src/hooks/useSectionInView.ts",
+    "./src/locales/en/common.ts",
+    "./src/locales/pt/common.ts",
+    "./src/sections/AboutSection.tsx",
+    "./src/sections/CertificatesSection.tsx",
+    "./src/sections/ContactSection.tsx",
+    "./src/sections/ExperienceSection.tsx",
+    "./src/sections/GitHubStatsSection.tsx",
+    "./src/sections/HeroSection.tsx",
+    "./src/sections/ProjectsSection.tsx",
+    "./src/sections/SkillsSection.tsx",
+    "./src/types/index.ts",
+    "./src/utils/cn.ts"
+  ],
+  "errors": true,
+  "version": "6.0.3"
+}

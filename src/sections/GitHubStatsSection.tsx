@@ -1,19 +1,25 @@
 import { motion } from "framer-motion";
 import { SectionTitle } from "../components/SectionTitle";
-
+import { useLanguage } from "../context/LanguageContext";
 const username = "KauaCampos";
-
 export function GitHubStatsSection() {
+  const { language } = useLanguage();
   const streakCard = `https://streak-stats.demolab.com?user=${username}&theme=tokyonight&hide_border=true`;
-
   return (
     <section id="github" className="mx-auto max-w-6xl px-6 py-20">
       <SectionTitle
         eyebrow="GitHub"
-        title="Atividade e consistência de desenvolvimento"
-        description="Visão rápida da minha frequência de commits e consistência de contribuição."
+        title={
+          language === "pt"
+            ? "Atividade e consistência de desenvolvimento"
+            : "Development activity and consistency"
+        }
+        description={
+          language === "pt"
+            ? "Visão rápida da minha frequência de commits e consistência de contribuição."
+            : "Quick overview of my commit cadence and contribution consistency."
+        }
       />
-
       <motion.article
         whileHover={{ y: -3 }}
         className="mt-8 overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-3"

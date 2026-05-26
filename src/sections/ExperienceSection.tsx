@@ -1,12 +1,18 @@
 import { SectionTitle } from "../components/SectionTitle";
-import { experiences } from "../data/portfolio";
-
+import { experiencesByLang } from "../data/portfolio";
+import { useLanguage } from "../context/LanguageContext";
 export function ExperienceSection() {
+  const { language } = useLanguage();
+  const experiences = experiencesByLang[language];
   return (
     <section id="experiencia" className="mx-auto max-w-6xl px-6 py-20">
       <SectionTitle
-        eyebrow="Experiência"
-        title="Projetos reais com impacto acadêmico e técnico"
+        eyebrow={language === "pt" ? "Experiência" : "Experience"}
+        title={
+          language === "pt"
+            ? "Projetos reais com impacto acadêmico e técnico"
+            : "Real projects with academic and technical impact"
+        }
       />
       <div className="mt-8 space-y-4">
         {experiences.map((e) => (
