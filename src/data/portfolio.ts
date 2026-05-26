@@ -11,16 +11,31 @@ export const navItems: NavItem[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com/KauaCampos', icon: Github, external: true },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/kauacampos/', icon: Linkedin, external: true },
-  { label: 'Email', href: 'mailto:kauauwc@gmail.com', icon: Mail },
+  {
+    label: 'GitHub',
+    href: 'https://github.com/KauaCampos',
+    icon: Github,
+    external: true,
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://linkedin.com/in/kauacampos/',
+    icon: Linkedin,
+    external: true,
+  },
+  {
+    label: 'Email',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=kauauwc@gmail.com&su=Contato%20via%20Portf%C3%B3lio',
+    icon: Mail,
+    external: true,
+  },
 ];
 
 export const devSignals = [
-  'Currently building: NeuroFlow Analytics (SaaS de estudos com IA)',
-  'Foco atual: arquitetura backend com Spring Boot + PostgreSQL',
-  'Workflow: GitHub Projects, Commits pequenos e code review contínuo',
-  'Setup: VS Code + Docker + n8n para automações',
+  'Desenvolvendo aplicações Full Stack modernas com React, TypeScript e Spring Boot',
+  'Experiência prática em projetos acadêmicos reais validados como TCC e estágio obrigatório',
+  'Interesse em backend, arquitetura de software, automações e inteligência artificial',
+  'Workflow focado em Git, componentização, APIs REST e desenvolvimento escalável',
 ];
 
 export const skillCategories: SkillCategory[] = [
@@ -33,14 +48,14 @@ export const skillCategories: SkillCategory[] = [
 
 export const experiences: Experience[] = [
   { title: 'Prisma Software Factory – CEFET-MG', period: '2025', description: 'Participei da construção de soluções reais em parceria com a ONG INASIM, conectando necessidades administrativas e educacionais com software robusto. O projeto foi validado como TCC e também como estágio obrigatório.' },
-  { title: 'SIGEPP – Sistema Integrado', period: '2024', description: 'Atuei no desenvolvimento de um sistema para gestão de estágios e projetos de pesquisa, com backend em Spring Boot, modelagem em PostgreSQL e frontend responsivo em React.' },
+  { title: 'SIGEPP – Sistema Integrado', period: '2024', description: 'Atuei no desenvolvimento de um sistema para gestão de estágios e projetos de pesquisa, com backend em Spring Boot, modelagem em NoSQL e frontend responsivo em React.' },
 ];
 
 export const projects: Project[] = [
   { title: 'Prisma Software Factory', year: '2025', description: 'Plataforma para digitalizar processos educacionais e administrativos, reduzindo retrabalho com foco em confiabilidade e experiência do usuário.', stack: ['React', 'Vite', 'TypeScript', 'PostgreSQL', 'Flask'], github: 'https://github.com/KauaCampos', demo: '#', badge: 'TCC + Estágio Obrigatório', featured: true },
-  { title: 'SIGEPP', year: '2024', description: 'Sistema integrado de gestão acadêmica com arquitetura backend modular e fluxo de dados consistente para operações de estágio e pesquisa.', stack: ['Spring Boot', 'Java', 'PostgreSQL', 'React'], github: 'https://github.com/KauaCampos', demo: '#', featured: true },
+  { title: 'SIGEPP', year: '2024', description: 'Sistema integrado de gestão acadêmica com arquitetura backend modular e fluxo de dados consistente para operações de estágio e pesquisa.', stack: ['Spring Boot', 'Java', 'NoSQL', 'React'], github: 'https://github.com/KauaCampos', demo: '#', featured: true },
   { title: 'Portfólio Pessoal Premium', year: '2026', description: 'Experiência web pensada para recrutadores, mostrando clareza técnica, identidade visual forte e qualidade de execução front-end.', stack: ['React', 'TypeScript', 'Tailwind', 'Framer Motion'], github: 'https://github.com/KauaCampos', demo: '#' },
-  { title: 'NeuroFlow Analytics (SaaS)', year: '2026', description: 'SaaS fictício para produtividade em estudos com IA, painéis de evolução, insights e analytics para tomada de decisão acadêmica.', stack: ['React', 'Node', 'PostgreSQL', 'OpenAI', 'Docker'], github: 'https://github.com/KauaCampos', demo: '#' },
+  { title: 'NeuroFlow Analytics (SaaS)', year: 'Futuramente', description: 'SaaS fictício para produtividade em estudos com IA, painéis de evolução, insights e analytics para tomada de decisão acadêmica.', stack: ['React', 'Node', 'PostgreSQL', 'OpenAI', 'Docker'], github: 'https://github.com/KauaCampos', demo: '#' },
 ];
 
 export const externalIcon = ExternalLink;

@@ -24,7 +24,7 @@ function App() {
       <GitHubStatsSection />
       <CertificatesSection />
       <ContactSection />
-      <footer className="border-t border-white/10 py-10 text-center text-sm text-slate-500">© {new Date().getFullYear()} Kauã Campos — Portfólio premium.</footer>
+      <footer className="border-t border-white/10 py-10 text-center text-sm text-slate-500">© {new Date().getFullYear()} Kauã Campos — Portfólio.</footer>
     </div>
   );
 }
