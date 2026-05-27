@@ -6,7 +6,7 @@ const certs = [
   {
     name: "Inglês Avançado C1",
     institution: "Uptime",
-    year: "2024",
+    year: "2022",
     icon: "🌐",
   },
   {
@@ -18,13 +18,13 @@ const certs = [
   {
     name: "Java COMPLETO POO + Projetos",
     institution: "Udemy (Nelio Alves)",
-    year: "2023",
+    year: "2025",
     icon: "☕",
   },
   {
     name: "Python Avançado",
     institution: "IFMG",
-    year: "2023",
+    year: "2025",
     icon: "🐍",
   },
 ];

@@ -37,9 +37,9 @@ export const socialLinks: SocialLink[] = [
   },
   {
     label: "Email",
-    href: "https://mail.google.com/mail/?view=cm&fs=1&to=kauauwc@gmail.com&su=Contato%20via%20Portf%C3%B3lio",
+    href: "#contato",
     icon: Mail,
-    external: true,
+    external: false,
   },
 ];
 
