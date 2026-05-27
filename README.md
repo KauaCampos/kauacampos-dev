@@ -57,11 +57,11 @@ O objetivo foi criar uma experiência visual moderna e profissional para apresen
 
 # 📌 Projetos Destacados
 
-## 🧠 NeuroFlow Analytics
-SaaS conceitual focado em produtividade nos estudos com IA.
+## 💡 Fábrica de Software Prisma — ONG INASIM
+Projeto desenvolvido durante a participação na Fábrica de Software Prisma do CEFET-MG.
 
 **Stack:**  
-React • PostgreSQL • OpenAI • Docker
+React • TypeScript • Flask • PostgreSQL
 
 ---
 
@@ -69,15 +69,15 @@ React • PostgreSQL • OpenAI • Docker
 Sistema integrado de gestão acadêmica desenvolvido com Spring Boot.
 
 **Stack:**  
-Spring Boot • Java • MySQL • React
+Spring Boot • Java • MySQL • HTML • CSS • Javascript
 
 ---
 
-## 💡 Fábricad de Software — INASIM
-Projeto desenvolvido durante a participação na Fábrica de Software Prisma do CEFET-MG.
+## 🧠 NeuroFlow Analytics
+SaaS conceitual focado em produtividade nos estudos com IA.
 
 **Stack:**  
-React • TypeScript • Flask • PostgreSQL
+React • PostgreSQL • OpenAI • Docker
 
 ---
 
