@@ -79,7 +79,7 @@ export function HeroSection() {
         <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} className="relative mx-auto w-full max-w-sm">
           <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-tr from-cyan-400/30 via-violet-500/25 to-emerald-400/25 blur-2xl" />
           <div className="relative overflow-hidden rounded-[2rem] border border-white/20 bg-white/5 p-3 shadow-2xl backdrop-blur-xl">
-            <img src={profileImage} alt={t.alt} className="h-auto w-full rounded-[1.4rem] transition duration-500 hover:scale-[1.02]" />
+            <img src={profileImage} alt={t.alt} className="h-auto w-full rounded-[1.4rem] transition duration-500 hover:scale-[1.02] object-cover object-top" />
           </div>
         </motion.div>
       </div>
