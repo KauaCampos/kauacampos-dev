@@ -82,8 +82,9 @@ React • PostgreSQL • OpenAI • Docker
 ---
 
 # 🌐 Deploy
-O projeto está hospedado em:
 
+**O projeto está hospedado em:**
+kauacampos-dev.vercel.app
 ---
 
 # 🚀 Rodando localmente
