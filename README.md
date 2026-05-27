@@ -73,11 +73,16 @@ Spring Boot • Java • MySQL • React
 
 ---
 
-## 💡 Prisma Software Factory — INASIM
+## 💡 Fábricad de Software — INASIM
 Projeto desenvolvido durante a participação na Fábrica de Software Prisma do CEFET-MG.
 
 **Stack:**  
 React • TypeScript • Flask • PostgreSQL
+
+---
+
+# 🌐 Deploy
+O projeto está hospedado em:
 
 ---
 
