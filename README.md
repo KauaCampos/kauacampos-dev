@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./src/assets/logo.png" width="120" />
+<img src="./public/favicom.png" width="120" />
 
 ### Full Stack Developer • Backend Focus • Software Architecture • AI
 
