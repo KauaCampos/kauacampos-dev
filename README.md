@@ -1,47 +1,97 @@
-# Kauã Campos — Portfólio Premium
+# 🚀 Kauã Campos — Developer Portfolio
 
-Portfólio pessoal moderno com identidade SaaS e foco em recrutadores técnicos.
+<div align="center">
 
-## Novidades desta versão
-- Hero mais pessoal com foto, CTA forte e botões funcionais de currículo (abrir + download).
-- Redes sociais com hover, tooltip e indicador visual de link externo.
-- Seção de GitHub Stats com cards e métricas visuais (repos/linguagens/streak/contribuições).
-- Projetos com mais profundidade visual, destaque para projetos principais e interação refinada.
-- Sobre mais humano, com trajetória real, foco em backend/arquitetura e sinais de atividade como dev.
+<img src="./src/assets/logo.png" width="120" />
 
-## Stack
-- React + Vite + TypeScript
+### Full Stack Developer • Backend Focus • Software Architecture • AI
+
+Portfolio desenvolvido para apresentar meus projetos, experiências e tecnologias utilizadas no desenvolvimento de aplicações modernas e escaláveis.
+
+</div>
+
+---
+
+# ✨ Sobre o Projeto
+
+Este projeto é meu portfólio pessoal desenvolvido com foco em:
+- experiência moderna;
+- design premium;
+- performance;
+- responsividade;
+- arquitetura limpa;
+- internacionalização (PT-BR / EN-US).
+
+O objetivo foi criar uma experiência visual moderna e profissional para apresentar meus projetos, habilidades e trajetória como desenvolvedor.
+
+---
+
+# 🛠️ Tecnologias
+
+## Frontend
+- React
+- Vite
+- TypeScript
 - TailwindCSS
 - Framer Motion
-- lucide-react
 
-## Estrutura
-```bash
-src/
-├── components/
-├── sections/
-├── data/
-├── assets/
-├── hooks/
-├── types/
-├── utils/
-├── styles/
-└── App.tsx
-```
+## Ferramentas
+- Git
+- GitHub
+- Docker
 
-## Rodando
+---
+
+# 🌎 Funcionalidades
+
+- 🌐 Sistema multilíngue (PT-BR / EN-US)
+- 🎨 UI moderna e responsiva
+- ⚡ Performance otimizada
+- 🧠 Sessão de projetos dinâmica
+- 📱 Mobile-first
+- 📄 Download de currículo
+- 🔗 Integração com GitHub e LinkedIn
+- ✨ Animações suaves com Framer Motion
+
+---
+
+# 📌 Projetos Destacados
+
+## 🧠 NeuroFlow Analytics
+SaaS conceitual focado em produtividade nos estudos com IA.
+
+**Stack:**  
+React • PostgreSQL • OpenAI • Docker
+
+---
+
+## 🏫 SIGEPP
+Sistema integrado de gestão acadêmica desenvolvido com Spring Boot.
+
+**Stack:**  
+Spring Boot • Java • MySQL • React
+
+---
+
+## 💡 Prisma Software Factory — INASIM
+Projeto desenvolvido durante a participação na Fábrica de Software Prisma do CEFET-MG.
+
+**Stack:**  
+React • TypeScript • Flask • PostgreSQL
+
+---
+
+# 🚀 Rodando localmente
+
 ```bash
+# Clone o repositório
+git clone https://github.com/KauaCampos/kauacampos-dev
+
+# Entre na pasta
+cd kauacampos-dev
+
+# Instale as dependências
 npm install
+
+# Rode o projeto
 npm run dev
-```
-
-## Deploy na Vercel
-1. Push no GitHub
-2. Importar projeto na Vercel
-3. Build command: `npm run build`
-4. Output: `dist`
-
-## Melhorias futuras
-- Activity heatmap customizado com API.
-- Theme switcher premium.
-- Command menu para navegação rápida.
