@@ -1,4 +1,5 @@
 import { lazy, Suspense } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { Navbar } from "./components/Navbar";
 import { LanguageProvider, useLanguage } from "./context/LanguageContext";
 import { AboutSection } from "./sections/AboutSection";
@@ -50,6 +51,7 @@ export default function App() {
   return (
     <LanguageProvider>
       <Layout />
+      <Analytics />
     </LanguageProvider>
   );
 }
