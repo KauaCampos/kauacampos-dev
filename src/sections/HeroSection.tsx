@@ -34,7 +34,7 @@ export function HeroSection() {
   const y = useTransform(scrollY, [0, 400], [0, 35]);
 
   return (
-    <section className="relative overflow-hidden px-6 pb-24 pt-16 md:pt-24">
+    <section className="relative flex min-h-screen items-center overflow-hidden px-6 py-8 lg:py-2">
       <div className="absolute inset-0 -z-10 bg-radial-premium" />
       <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.2fr_0.8fr]">
         <motion.div style={{ y }}>

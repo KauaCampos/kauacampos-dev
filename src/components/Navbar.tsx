@@ -1,5 +1,7 @@
 import { getNavItems } from "../data/portfolio";
 import { useLanguage } from "../context/LanguageContext";
+import brFlag from "../assets/brasil.png";
+import usFlag from "../assets/eua.jpg";
 
 export function Navbar() {
   const { language, setLanguage } = useLanguage();
@@ -20,9 +22,34 @@ export function Navbar() {
             </li>
           ))}
         </ul>
-         <div className="flex items-center gap-2">
-          <button onClick={() => setLanguage('pt')} className={`rounded-md px-2 py-1 text-sm ${language === 'pt' ? 'bg-white/20' : 'bg-white/5'}`}>🇧🇷</button>
-          <button onClick={() => setLanguage('en')} className={`rounded-md px-2 py-1 text-sm ${language === 'en' ? 'bg-white/20' : 'bg-white/5'}`}>🇺🇸</button>
+        <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 p-1 backdrop-blur-md">
+          <button
+            onClick={() => setLanguage("pt")}
+            className={`flex items-center gap-2 rounded-full px-3 py-1.5 transition-all duration-300 ${
+              language === "pt"
+                ? "bg-white text-slate-900 shadow-lg"
+                : "text-slate-300 hover:bg-white/10 hover:text-white"
+            }`}
+          >
+            <img
+              src={brFlag}
+              alt="Português"
+              className="h-4 w-4 rounded-full"
+            />
+            <span className="hidden sm:block text-sm font-medium">PT</span>
+          </button>
+
+          <button
+            onClick={() => setLanguage("en")}
+            className={`flex items-center gap-2 rounded-full px-3 py-1.5 transition-all duration-300 ${
+              language === "en"
+                ? "bg-white text-slate-900 shadow-lg"
+                : "text-slate-300 hover:bg-white/10 hover:text-white"
+            }`}
+          >
+            <img src={usFlag} alt="English" className="h-4 w-4 rounded-full" />
+            <span className="hidden sm:block text-sm font-medium">EN</span>
+          </button>
         </div>
       </nav>
     </header>
