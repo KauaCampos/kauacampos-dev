@@ -12,6 +12,7 @@ import projectPrisma from "../assets/inasimong.png";
 import projectSigepp from "../assets/sigepp.png";
 import projectKampos from "../assets/kampos.png";
 import projectPrismae from "../assets/prismae.png";
+import projectNeuroflow from "../assets/neuroflow.png";
 
 import type {
   Experience,
@@ -232,7 +233,18 @@ export const projectsByLang: Record<Language, Project[]> = {
       github: "https://prismae.github.io/prismae-site/",
       demo: "https://prismae.github.io/prismae-site/",
       image: projectPrismae,
-    }
+    },
+
+    {
+      title: "NeuroFlow Analytics (SaaS)",
+      year: "Em breve",
+      description:
+        "SaaS conceitual para produtividade nos estudos com IA, dashboards de evolução, analytics e insights orientados por dados.",
+      stack: ["React", "Node", "PostgreSQL", "OpenAI", "Docker"],
+      github: "https://github.com/KauaCampos",
+      demo: "#",
+      image: projectNeuroflow,
+    },
   ],
 
   en: [
@@ -281,6 +293,17 @@ export const projectsByLang: Record<Language, Project[]> = {
       github: "https://prismae.github.io/prismae-site/",
       demo: "https://prismae.github.io/prismae-site/",
       image: projectPrismae,
-    }
+    },
+
+    {
+      title: "NeuroFlow Analytics (SaaS)",
+      year: "Coming soon",
+      description:
+        "Concept SaaS for study productivity powered by AI, featuring progress dashboards, analytics, and data-driven insights.",
+      stack: ["React", "Node", "PostgreSQL", "OpenAI", "Docker"],
+      github: "https://github.com/KauaCampos",
+      demo: "#",
+      image: projectNeuroflow,
+    },
   ],
 };
