@@ -8,7 +8,7 @@ const certs = [
     institution: "Uptime",
     year: "2022",
     icon: "🌐",
-    href: "https://www.linkedin.com/in/kauacampos/overlay/Certifications/1108400271/treasury/?profileId=ACoAAEFXlCAB815g1FG6UCv5u84Tc0-c7ggrFJw",
+    href: "https://www.linkedin.com/in/kauacampos/details/certifications/",
   },
   {
     name: "Inteligência Artificial",
@@ -29,7 +29,7 @@ const certs = [
     institution: "IFMG",
     year: "2025",
     icon: "🐍",
-    href: "https://www.linkedin.com/in/kauacampos/overlay/Certifications/2002509493/treasury/?profileId=ACoAAEFXlCAB815g1FG6UCv5u84Tc0-c7ggrFJw",
+    href: "https://www.linkedin.com/in/kauacampos/details/certifications/",
   },
 ];
 
